@@ -19,7 +19,7 @@ $(function () {
             $(".bannerImg i").fadeOut(300).eq(bNum).fadeIn(300);
         })
         $(".bannerBtnR").click(function () {
-            dong();
+            bDong();
         })
     bTimer = setInterval(bDong, 1000);
     $(".banner").hover(function () {
